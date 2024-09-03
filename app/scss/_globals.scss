@@ -35,7 +35,7 @@ a:hover {
 }
 
 hr {
-  border-top: 1px solid #000;
+  border-top: 2px solid $apeBlue;
   width: clamp(100px, 50%, 380px);
 }
 .invert {
@@ -98,7 +98,7 @@ button,
   font-weight: 400;
 
   &:hover {
-    background: black;
+    background: $wetCement;
   }
 }
 
