@@ -1,0 +1,14 @@
+// Colors
+$deepOrange: hsl(6, 63%, 53%);
+$apeBlue: hsl(211, 52%, 34%);
+$offWhite: hsl(105, 55%, 96%);
+$cyan: hsl(182, 43%, 76%);
+$limeGreen: hsl(174, 36%, 64%);
+// $cement: hsl(203, 39%, 44%);
+$cement: hsl(135, 8%, 72%);
+
+// Font Sizes
+$font-s: 0.875rem; // 14px
+$font-m: 1.125rem; // 18px
+// $font-l: 1.625rem; // 26px
+$font-l: clamp(1.625rem, 2vw + 1rem, 4rem);

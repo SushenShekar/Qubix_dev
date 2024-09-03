@@ -1,0 +1,29 @@
+.hero {
+
+    background-color: $cement;
+    background-image: radial-gradient(circle at top left,rgba(34,34,34,0.5) 0%,rgba(31,62,78,0.6) 100%),url(/assets/images/kevin-rosales-3pz6HBp2Ye4-unsplash-resized.jpg);
+    background-size: cover;
+
+    padding-top: 11vw;
+    padding-bottom: 11vw;
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__text {
+        color: $offWhite;
+        padding: 0 20%;
+        text-align: center;
+    }
+
+    &__image {
+        background-image: url(/assets/images/log-for-fav-transparent.png);
+        background-size: cover;
+        background-position: center center;
+
+        padding: 5%;
+    }
+}

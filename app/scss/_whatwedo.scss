@@ -1,0 +1,39 @@
+.what_we_do_title {
+    text-align: center;
+    padding: 0 10%;
+    margin-top: 5%;
+    margin-bottom: 0;
+    font-size: $font-l;
+}
+
+
+//Auto Grid
+.what_we_do{
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: 
+        repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+
+    text-align: center;
+    padding: 5%;
+    font-size: $font-m;
+}
+
+//Flexible Grid
+// .what-we-do{
+//     display: flex;
+//     flex-wrap: wrap;
+//     gap: 5rem;
+//     padding: 5%;
+// }
+
+// .what-we-do > * {
+//     flex: 1;
+// }
+
+.we_do_images{
+    display: block;
+    max-width: 30%;
+    margin: auto;
+    padding: 2%;
+}

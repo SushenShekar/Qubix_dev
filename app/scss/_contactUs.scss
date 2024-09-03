@@ -1,0 +1,51 @@
+.contact_us {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    width: 100%;
+    // padding: 20%;
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        background: $cyan;
+        padding: 2vw 4vw;
+        width: 100%;
+        }
+    
+    &__form h3 {
+        color: $apeBlue;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    &__form input, form textarea {
+        border: 0;
+        margin: 10px 0;
+        padding: 20px;
+        outline: none;
+        background: $offWhite;
+        font-size: 16px;
+    }
+    
+    
+}
+
+.contact_box {
+    max-width: 100%;
+    height: auto;
+    
+
+    &__social_icons {
+        display: flex;
+        justify-content: center;
+
+        background-color: $cement;
+    }
+}
+
+.form_block {
+    max-width: 100%;
+}

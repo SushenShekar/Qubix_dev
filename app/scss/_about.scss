@@ -1,0 +1,50 @@
+.about_us{
+    display: flex;
+}
+
+.about_us_images {
+    display: inline;
+    max-width: 10%;
+    margin-bottom: auto;
+    padding: 2%;
+}
+
+.checklist {
+    width: 140rem;
+    background-color: aqua;
+}
+
+.list_with_leftImage{
+    display: flex;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    background-color: floralwhite;
+}
+
+.about_us_title{
+    margin-bottom: 0;
+    text-align: center;
+    font-size: $font-l;
+}
+
+.about_us_content{
+    text-align: center;
+}
+
+.get_in_touch {
+    background-color: rosybrown;
+    color: $offWhite;
+}
+
+@media (max-width: 50em) {
+    .about_us {
+        flex-direction: column;
+    }
+
+    .checklist {
+        width: 100%;
+    }
+}
