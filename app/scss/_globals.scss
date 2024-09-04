@@ -89,16 +89,17 @@ button,
 .button {
   display: inline-block;
   padding: 0.875rem 2.1875rem;
-  //   background: linear-gradient($deepOrange, $apeBlue);
-  background: $deepOrange;
+  background: $wetCement;
   border: 0;
   border-radius: 5px;
   cursor: pointer;
   color: $offWhite;
   font-weight: 400;
+  text-align: center;
 
   &:hover {
-    background: $wetCement;
+    background: $cement;
+    color: black;
   }
 }
 

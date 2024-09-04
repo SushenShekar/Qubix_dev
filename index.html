@@ -18,10 +18,6 @@
     <header class="header">
       <div class="overlay has_fade"></div>
       <nav class="container flex flex-jc-sb flex-ai-c">
-        <!-- <a href="/" class="header__logo">
-        <img src="/assets/images/log-for-fav.png" alt="Qubix"/>
-      </a> -->
-
         <a href="#" class="header__logo"
           ><img src="assets/images/QT-logo-200x200.webp" alt="Qubix"
         /></a>
@@ -33,17 +29,16 @@
         </a>
 
         <div class="header__links hide-for-mobile">
-          <a href="#">HOME</a><a href="#about_us">ABOUT US</a
-          ><a href="#">WHAT WE DO</a><a href="#">OUR WORK</a
+          <a href="#">HOME</a><a href="#what_we_do">WHAT WE DO</a
+          ><a href="#about_us">ABOUT US</a><a href="#our_team">OUR TEAM</a
           ><a href="#">CONTACT US</a>
         </div>
       </nav>
       <div class="header__menu has_fade">
         <a href="#">HOME</a>
+        <a href="#what_we_do">WHAT WE DO</a>
         <a href="#about_us" up-accept>ABOUT US</a>
-        <a href="#">WHAT WE DO</a>
-        <a href="#">OUR WORK</a>
-        <!-- <a href="http://">TESTIMONIALS</a> -->
+        <a href="#our_team">OUR TEAM</a>
         <a href="#">CONTACT US</a>
       </div>
     </header>
@@ -60,12 +55,12 @@
             requirements in terms of performance, grade, durability, appearance
             and intended use/purpose, etc.
           </p>
-          <a href="#contact-form" class="button hero__cta">Contact Us</a>
+          <a href="#contact-form" class="button">Contact Us</a>
         </div>
       </div>
     </section>
 
-    <h1 class="what_we_do_title">WHAT WE DO</h1>
+    <h1 class="what_we_do_title" id="what_we_do">WHAT WE DO</h1>
     <hr />
     <section class="what_we_do">
       <div>
@@ -156,17 +151,23 @@
             </p>
           </div>
         </div>
-        <div class="get_in_touch container flex flex-jc-sb flex-w">
-          <h3>Building project in mind?</h3>
-          <a href="#contact-form" class="button hero__cta">Contact Us</a>
+        <div class="get_in_touch flex flex-jc-sb flex-w">
+          <h3 class="get_in_touch__heading">
+            Building project in mind?<span class="get_in_touch__sentence"
+              >Reach out to us for the best quality at the best prices.</span
+            >
+          </h3>
+          <a href="#contact-form" class="button get_in_touch__cta"
+            >Contact Us</a
+          >
         </div>
       </div>
     </section>
 
-    <section class="hero">
+    <section class="hero" id="our_team">
       <div class="hero__container">
         <div class="hero__text">
-          <h1>Our Work</h1>
+          <h1>Our Team</h1>
           <hr class="invert" />
           <p>
             Quality means “Performance upon expectations” and “fit for
@@ -205,9 +206,7 @@
           <input type="email" name="user_email" />
           <label>Message</label>
           <textarea name="message"></textarea>
-          <a class="button hero__cta" type="submit" value="Submit"
-            >Contact Us</a
-          >
+          <a class="button" type="submit" value="Submit">Contact Us</a>
         </form>
       </div>
 
